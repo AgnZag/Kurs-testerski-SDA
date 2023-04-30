@@ -497,7 +497,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/{id}/labels?name=Nowa Labelka&color=Red&key=71239f00de663939bbc59e65df288138&token=ATTAb85ab0225fbde982b5273059637ecfafa4ba48678818c27e80a3054dc2191ddaAA4703BF",
+					"raw": "https://api.trello.com/1/boards/{id}/labels?name=Nowa Labelka&color=Red&key=71239f00de663939bbc59e65df288138&token=ATTAb85ab0225fbde982b5273059637ecfafa4ba48678818c27e80a3054dc2191ddaAA4703BF&ID=644e636c7f4dc279c0877a8f",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -526,6 +526,11 @@
 						{
 							"key": "token",
 							"value": "ATTAb85ab0225fbde982b5273059637ecfafa4ba48678818c27e80a3054dc2191ddaAA4703BF"
+						},
+						{
+							"key": "ID",
+							"value": "644e636c7f4dc279c0877a8f",
+							"type": "text"
 						}
 					]
 				}
